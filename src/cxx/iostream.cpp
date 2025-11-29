@@ -1,4 +1,4 @@
-#include "iostream.hpp"
+#include "iostream"
 
 namespace std {
     ostream cout;

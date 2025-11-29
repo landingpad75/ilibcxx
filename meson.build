@@ -17,6 +17,5 @@ crt0_cxx_o = custom_target('crt0_cxx.o',
 libilicxx = static_library('ilibcxx',
   sources: ilicxx_sources,
   include_directories: include_directories('include'),
-  cpp_args: userland_cxx_flags,
   pic: false,
 )
